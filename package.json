@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "nuxt build --entry-name main",
+    "build": "nuxt build --entry-name master",
     "build-all": "nuxt build --entry-name main && nuxt build --entry-name comingSoon && nuxt build --entry-name promoOver",
     "build:comingSoon": "nuxt build --entry-name comingSoon",
     "build:main": "nuxt build --entry-name main",
