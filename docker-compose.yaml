@@ -1,0 +1,49 @@
+version: "3.4"
+
+services:
+  frontend:
+    image: us.gcr.io/internal-236323/node:16-alpine
+    expose:
+      - 3000
+    ports:
+      - 0:3000
+    tty: true
+    command: npm run dev
+    environment:
+      - SOCK_HOST=14-four-frontend-nuxt.${DEV_DOMAIN}
+      # - APOLLO=14-four-frontend-nuxt.${DEV_DOMAIN}
+    env_file: .env
+    volumes:
+      - .:/app
+      - node-modules:/app/node_modules
+    labels:
+      - traefik.port=${PORT}
+      - traefik.docker.network=proxy
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-http.rule=Host(`14-four-frontend-nuxt.${DEV_DOMAIN}`)
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-http.middlewares=14-four-frontend-nuxt-frontend-https@docker
+      - traefik.http.middlewares.14-four-frontend-nuxt-frontend-https.redirectscheme.scheme=https
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.entrypoints=web-secure
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.rule=Host(`14-four-frontend-nuxt.${DEV_DOMAIN}`)
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.tls=true
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.tls.certResolver=14four
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.tls.domains[0].main=*.${DEV_DOMAIN}
+      - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
+      - traefik.http.middlewares.sslheader.headers.sslredirect=true
+      - traefik.http.middlewares.sslheader.headers.isDevelopment=true
+      - traefik.http.routers.14-four-frontend-nuxt-frontend-https.middlewares=sslheader@docker
+    networks:
+      - local
+      - proxy
+
+# Create Persistance Volume
+volumes:
+  node-modules:
+
+# Setup Networks
+# Local for internal communications
+# Proxy for Traefik communications
+networks:
+  local:
+    external: false
+  proxy:
+    external: true
