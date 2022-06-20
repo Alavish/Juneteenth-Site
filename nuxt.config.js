@@ -15,7 +15,6 @@ export default {
   generate: {
     fallback: true,
   },
-
   telemetry: false,
   target: 'static',
   // ssr: false, // This should only be false if you don't want the HTML to render.
