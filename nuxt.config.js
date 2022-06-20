@@ -12,6 +12,9 @@ export default {
   gsap: {
     /* Module Options */
   },
+  generate: {
+    fallback: true,
+  },
 
   telemetry: false,
   target: 'static',
