@@ -9,8 +9,6 @@ const getArgument = (argToCheck) => {
 const name = getArgument('--entry-name')
 
 export default {
-
-
   gsap: {
     /* Module Options */
   },
@@ -23,9 +21,9 @@ export default {
     pages: `entries/${name}/pages`,
   },
   generate: {
-    dir: `dist/${name}`,
     fallback: true,
   },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '14-four-frontend-nuxt',
@@ -102,7 +100,6 @@ export default {
     mode: 'out-in',
   },
 
-  
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -176,7 +173,6 @@ export default {
       default: '~/apollo/config.js',
     },
   },
-
 
   sitemap: {
     hostname: 'https://14-four-frontend-nuxt.com',
