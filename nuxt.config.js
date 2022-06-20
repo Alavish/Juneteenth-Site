@@ -117,8 +117,8 @@ export default {
     '@nuxtjs/svg',
     // https://www.npmjs.com/package/@nuxtjs/apollo
     '@nuxtjs/apollo',
-    // https://www.npmjs.com/package/@nuxtjs/recaptcha
-    '@nuxtjs/recaptcha',
+    
+
     // https://www.npmjs.com/package/@nuxtjs/robots
     '@nuxtjs/robots',
     // https://www.npmjs.com/package/@nuxtjs/sitemap
@@ -157,17 +157,6 @@ export default {
       },
     },
   },
-
-  publicRuntimeConfig: {
-    recaptcha: {
-      siteKey: process.env.RECAPTCHA_SITE_KEY,
-      size: 'normal',
-      version: 3,
-    },
-    GRAPHQL_ENDPOINT: process.env.GRAPHQL_ENDPOINT,
-    disableRecaptcha: process.env.DISABLE_RECAPTCHA || false,
-  },
-
   apollo: {
     clientConfigs: {
       default: '~/apollo/config.js',
