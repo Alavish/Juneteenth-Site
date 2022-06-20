@@ -14,7 +14,7 @@ export default {
   },
 
   telemetry: false,
-  target: 'static',
+  target: 'serverless',
   // ssr: false, // This should only be false if you don't want the HTML to render.
   dir: {
     layouts: `entries/${name}/layouts`,
