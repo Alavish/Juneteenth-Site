@@ -1,0 +1,34 @@
+[
+  {
+    "name": "businesses",
+    "path": "/businesses",
+    "component": "/Users/alavish/Downloads/14fourdev-14four-frontend-nuxt-b7e805ed29da/entries/main/pages/businesses.vue",
+    "chunkName": "entries/main/pages/businesses",
+    "url": "/businesses",
+    "_name": "_27ca3eb4"
+  },
+  {
+    "name": "celebrate",
+    "path": "/celebrate",
+    "component": "/Users/alavish/Downloads/14fourdev-14four-frontend-nuxt-b7e805ed29da/entries/main/pages/celebrate.vue",
+    "chunkName": "entries/main/pages/celebrate",
+    "url": "/celebrate",
+    "_name": "_1b7a0e3f"
+  },
+  {
+    "name": "donate",
+    "path": "/donate",
+    "component": "/Users/alavish/Downloads/14fourdev-14four-frontend-nuxt-b7e805ed29da/entries/main/pages/donate.vue",
+    "chunkName": "entries/main/pages/donate",
+    "url": "/donate",
+    "_name": "_0af7b627"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/alavish/Downloads/14fourdev-14four-frontend-nuxt-b7e805ed29da/entries/main/pages/index.vue",
+    "chunkName": "entries/main/pages/index",
+    "url": "/",
+    "_name": "_20b7f46c"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "AppFooter": {
+    "description": "Auto imported from components/app/Footer.vue"
+  },
+  "AppHamburger": {
+    "description": "Auto imported from components/app/Hamburger.vue"
+  },
+  "AppHeader": {
+    "description": "Auto imported from components/app/Header.vue"
+  },
+  "TemplateDefaultLayout": {
+    "description": "Auto imported from components/template/DefaultLayout.vue"
+  },
+  "TemplateErrorPage": {
+    "description": "Auto imported from components/template/ErrorPage.vue"
+  }
+}

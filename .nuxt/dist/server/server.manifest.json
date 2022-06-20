@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "5.js": "5.js",
+    "entries/main/pages/businesses.js": "entries/main/pages/businesses.js",
+    "entries/main/pages/celebrate.js": "entries/main/pages/celebrate.js",
+    "entries/main/pages/donate.js": "entries/main/pages/donate.js",
+    "entries/main/pages/index.js": "entries/main/pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "5.js": "5.js.map",
+    "entries/main/pages/businesses.js": "entries/main/pages/businesses.js.map",
+    "entries/main/pages/celebrate.js": "entries/main/pages/celebrate.js.map",
+    "entries/main/pages/donate.js": "entries/main/pages/donate.js.map",
+    "entries/main/pages/index.js": "entries/main/pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
