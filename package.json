@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build --entry-name main",
-    "build-all": "nuxt build --entry-name main && nuxt build --entry-name comingSoon && nuxt build --entry-name promoOver",
+    "build-all": "nuxt build --entry-name main",
     "build:comingSoon": "nuxt build --entry-name comingSoon",
     "build:main": "nuxt build --entry-name main",
     "build:promoOver": "nuxt build --entry-name promoOver",
@@ -13,7 +13,7 @@
     "dev:main": "nuxt --entry-name main",
     "dev:promoOver": "nuxt --entry-name promoOver",
     "generate": "nuxt generate --entry-name main",
-    "generate-all": "nuxt generate --entry-name main && nuxt generate --entry-name comingSoon && nuxt generate --entry-name promoOver",
+    "generate-all": "nuxt generate --entry-name main",
     "generate:comingSoon": "nuxt generate --entry-name comingSoon",
     "generate:main": "nuxt generate --entry-name main",
     "generate:promoOver": "nuxt generate --entry-name promoOver",
