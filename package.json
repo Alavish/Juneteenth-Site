@@ -1,6 +1,6 @@
 {
   "name": "14-four-frontend-nuxt",
-  "version": "1.0.0",
+  "version": "12.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build --entry-name main",
