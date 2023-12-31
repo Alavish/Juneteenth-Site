@@ -26,7 +26,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '14-four-frontend-nuxt',
+    title: '',
     htmlAttrs: {
       lang: 'en',
       prefix: 'og: http://ogp.me/ns#',
@@ -39,8 +39,8 @@ export default {
         name: 'description',
         content: '',
       },
-      { property: 'og:url', content: 'https://14-four-frontend-nuxt.com' },
-      { property: 'og:title', content: '14-four-frontend-nuxt' },
+      { property: 'og:url', content: 'https://.com' },
+      { property: 'og:title', content: '' },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:description',
@@ -48,19 +48,19 @@ export default {
       },
       {
         property: 'og:image',
-        content: 'https://14-four-frontend-nuxt.com/share.jpg',
+        content: 'https://.com/share.jpg',
       },
       { property: 'og:height', content: '630' },
       { property: 'og:width', content: '1200' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: '14-four-frontend-nuxt' },
+      { name: 'twitter:title', content: '' },
       {
         name: 'twitter:description',
         content: '',
       },
       {
         name: 'twitter:image',
-        content: 'https://14-four-frontend-nuxt.com/share.jpg',
+        content: 'https://.com/share.jpg',
       },
     ],
     link: [
@@ -164,7 +164,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://14-four-frontend-nuxt.com',
+    hostname: 'https://.com',
     gzip: true,
     exclude: [],
   },

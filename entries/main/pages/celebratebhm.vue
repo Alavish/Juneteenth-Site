@@ -4,20 +4,36 @@
     .textLogo
       h1(slot="placeholder") Celebrate
   .explanationBox
-    h3 Celebrating Juneteenth At Work
+    h3 Celebrating Black History At Work
     .explanationBoxBreak
     <img class="monPic" alt="monument" src="@/assets/images/juneteenthworkpic.jpeg">
       br
-      p Recognizing Juneteenth in the workplace supports corporate diversity ideals and sends a signal that the company is truly dedicated to its diverse employee base.
+      p Celebrating Black History in the workplace supports corporate diversity ideals and sends a signal that the company is truly dedicated to its diverse employee base.
       br
       br
     <ul>
-    <li><u>Decorate</u> - Decorate a conference room, lobby or workspace with a Juneteenth theme to acknowledge the day's celebration. Bring the group together for refreshments and an explanation of Juneteenth.</li>
-    <li><u>Hold Conversations</u> - Discuss company diversity initiatives and ensure employees that race and gender will never be barriers to their progress within the company.</li>
-    <li><u> Invite a Speaker</u> - Bring in a guest speaker. Make this an important date on the corporate calendar.</li>
+    br
+    <li><u>Community Engagement </u> - Initiate volunteer opportunities or partnerships with local organizations that support and uplift African American communities. This could include volunteering at a youth center, supporting initiatives focused on education or social justice, or sponsoring events that celebrate African American culture.</li>
+    br
+    <li><u>Cultural Potluck or Food Day </u> - Organize a cultural potluck where employees can bring in dishes that celebrate African American cuisine. Encourage sharing stories about the significance of these foods, their cultural ties, and their historical importance. This can create a space for conversation and appreciation of diverse culinary traditions.</li>
+    br
+    <li><u>Educational Workshops or Talks </u> - Organize educational sessions led by historians, diversity trainers, or community leaders that focus on the history and achievements of African Americans. These sessions could cover influential figures, pivotal events, or cultural contributions, fostering a better understanding among all employees.</li>
+    br
     </ul>
       br
       br
+      h3 Celebrating In Your Community 
+    .explanationBoxBreakA
+      br
+      br
+      <img class="jcom" alt="community" src="@/assets/images/communitypic1.jpeg">
+    <ul>
+    <li> Rally local organizations to unite and collaborate on a special event in honor of BHM. (Public discussion,concert,etc.)</li>
+    br
+    <li> Encourage your libraries, post offices, city hall to host Black History Month displays.</li>
+    br
+    <li> Host a community-wide prayer moment. Everyone join hands a say a prayer of thankfulness and problem solving. Invite government and business leaders to participate.</li>
+      </ul>
   .button-wrapper
     nuxt-link.btn(to="/donate") Donate
 </template>

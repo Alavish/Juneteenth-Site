@@ -1,5 +1,6 @@
 <template lang="pug">
-  footer
+     <a href="https://itsantsstudios.com"> <img class="antlogo" alt="logo" src="@/assets/images/antfooter.png"> </a>
+
 </template>
 
 <script>
@@ -13,6 +14,20 @@ footer {
   position: relative;
   background: black;
   width: 100%;
-  min-height: 200px;
+}
+
+.antlogo {
+  position: relative;
+  background: black;
+  left: 100rem;
+  width: 10rem;
+}
+@media only screen and (max-device-width: 480px) {
+  .antlogo {
+    position: relative;
+    background: blue;
+    left: 100rem;
+    width: 10rem;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 {
-  "name": "14-four-frontend-nuxt",
+  "name": "",
   "version": "12.0.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "build:comingSoon": "nuxt build --entry-name comingSoon",
     "build:main": "nuxt build --entry-name main",
     "build:promoOver": "nuxt build --entry-name promoOver",
-    "dev": "nuxt --entry-name main",
+    "dev": "nuxt --openssl-legacy-provider --entry-name main",
     "dev:comingSoon": "nuxt --entry-name comingSoon",
     "dev:main": "nuxt --entry-name main",
     "dev:promoOver": "nuxt --entry-name promoOver",
@@ -25,7 +25,7 @@
     "serve:promoOver": "nuxt serve --entry-name promoOver",
     "start": "nuxt start --entry-name main",
     "start:comingSoon": "nuxt start --entry-name comingSoon",
-    "start:main": "nuxt start --entry-name main",
+    "start:main": "nuxt --openssl-legacy-provider-start --entry-name main",
     "start:promoOver": "nuxt start --entry-name promoOver"
   },
   "devDependencies": {

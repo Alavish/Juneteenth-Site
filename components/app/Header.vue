@@ -8,9 +8,12 @@ header.inner
         AppHamburger(:active="menuActive")
       .body-container 
         h3(@click='navLink("/")') Home Page
-        h3(@click='navLink("/celebrate")') Celebrate
         h3(@click='navLink("/businesses")') Black Business Scroll
+        h3(@click='navLink("/celebratebhm")') Celebrate BHM
+        h3(@click='navLink("/juneteenth")') Juneteenth
         h3(@click='navLink("/donate")') Donate
+       
+      
       .footer-container
 </template>
 

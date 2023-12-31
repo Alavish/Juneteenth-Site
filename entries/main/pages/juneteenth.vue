@@ -2,27 +2,27 @@
 .main
   .home.page
     .textLogo
-      h1(slot="placeholder") Black History Month 
+      h1(slot="placeholder") Juneteenth
       h2 Spokane 
+  .animationBox
+    <img class="handR" alt="title" src="@/assets/images/lefthandchained.png">
+    <img class="handL" alt="title" src="@/assets/images/righthandchained.png">
   .explanationBox
-    h3 Black History In Spokane ?
+    h3 What is Juneteenth ?
     .explanationBoxBreak
-    <img class="monPic" alt="monument" src="@/assets/images/FBurgCMaxey.png">
-      br
-      span Frank Burgess & Carl Maxey 
-      br
-      p Spokane, like many places in the United States, has its own history enriched by the contributions of notable African Americans. One such figure is Frank Burgess, an exceptional athlete and influential individual who made his mark in Spokane 
-      p Frank Burgess was a basketball sensation at Gonzaga University during the late 1950s. Despite facing racial prejudices and challenges during his time, Burgess excelled both on and off the court. He became the first African American to lead the NCAA in scoring, achieving an average of 32.4 points per game in the 1960 season. His remarkable talent and resilience in the face of adversity not only made him a local sports hero but also a symbol of determination and excellence.
-      p Burgess's legacy extends beyond his basketball prowess. He became an inspiration for many young athletes, demonstrating the power of perseverance and dedication. His achievements paved the way for future generations of black athletes in Spokane and beyond, breaking barriers and proving that talent knows no racial boundaries.
-      p Moreover, Spokane has seen the emergence of other influential African American figures. For instance, activist and educator Carl Maxey left an indelible mark on the city. Maxey fought against racial discrimination, advocating for civil rights and equality in Spokane. His efforts helped create a more inclusive and equitable community, leaving a lasting impact on the city's social and legal landscape.
-      p These stories of remarkable individuals like Frank Burgess and Carl Maxey highlight the resilience, determination, and contributions of African Americans in shaping Spokane's history. Their legacies serve as a testament to the power of perseverance, inspiring generations to strive for excellence and equality in all aspects of life.
+    <img class="monPic" alt="monument" src="@/assets/images/monument.jpeg">
+      span Juneteenth 
+      p Short for “June Nineteenth” marks the day when federal troops arrived in Galveston, Texas in 1865 to take control of the state and ensure that all enslaved people be freed. The troops’ arrival came a full two and a half years after the signing of the Emancipation Proclamation. 
+      p Juneteenth honors the end to slavery in the United States and is considered the longest-running African American holiday. On June 17, 2021, it officially became a federal holiday. Confederate General Robert E. Lee had surrendered at Appomattox Court House two months earlier in Virginia, but slavery had remained relatively unaffected in Texas—until U.S. General Gordon Granger stood on Texas soil and read General Orders No. 3: “The people of Texas are informed that, in accordance with a proclamation 
+      p from the Executive of the United States, all slaves are free.”Confederate General Robert E. Lee had surrendered at Appomattox Court House two months earlier in Virginia, but slavery had remained relatively unaffected in Texas—until U.S.  General Gordon Granger stood on Texas soil and read General Orders No. 3: “The people of Texas are informed that, in accordance with a proclamation from the Executive of the United States, all slaves are free.”
       br
       br
-  
+      <span class="juneteenth-Today"> Juneteenth Today</span>
     .explanationBoxBreakA
       br
       br
-
+      <img class="jToday" alt="today" src="@/assets/images/juneteenthToday.jpeg">
+      p Today Juneteenth commemorates African American freedom and emphasizes education and achievement. It is a day, a week, and in some areas, a month marked with celebrations, guest speakers, picnics and family gatherings. It is a time for  reflection and rejoicing. It is a time for assessment, self-improvement and for planning the future. Its growing popularity signifies a level of maturity and dignity in America long over due. In cities across the country, people of all races, nationalities and religions are joining hands to truthfully acknowledge a period in our history that shaped and continues to influence our society today. Sensitized to the conditions and experiences of others, only then can we make significant and lasting improvements in our society.
   .button-wrapper
     nuxt-link.btn(to="/celebrate") How To Celebrate ?
     nuxt-link.btn(to="/donate") Donate
@@ -116,8 +116,7 @@ p {
 
 h1 {
   margin-right: 0;
-  font-size: 180px;
-  width: 100rem;
+  font-size: 250px;
   background: -webkit-linear-gradient(red, yellow, green);
   text-shadow: 2.5px 2.5px whitesmoke;
   -webkit-background-clip: text;
