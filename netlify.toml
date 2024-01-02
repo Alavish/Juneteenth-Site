@@ -1,5 +1,5 @@
 [build]
-  command = "npm run generate --openssl-legacy-provider"
+  command = "npm run start --openssl-legacy-provider"
   publish = "/build"
   base ="/"
 
