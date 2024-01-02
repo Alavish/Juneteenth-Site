@@ -1,9 +1,9 @@
 [build]
-  command = "npm run start"
+  command = "npm run generate"
   publish = "/build"
   base ="/"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.vue"
   status = 200
