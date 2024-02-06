@@ -8,7 +8,7 @@
     "build:comingSoon": "nuxt build --entry-name comingSoon",
     "build:main": "nuxt build --entry-name main",
     "build:promoOver": "nuxt build --entry-name promoOver",
-    "dev": "nuxt --openssl-legacy-provider --entry-name main",
+    "dev": "nuxt --entry-name main",
     "dev:comingSoon": "nuxt --entry-name comingSoon",
     "dev:main": "nuxt --entry-name main",
     "dev:promoOver": "nuxt --entry-name promoOver",

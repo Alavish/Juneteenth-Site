@@ -24,7 +24,7 @@
       br
 
   .button-wrapper
-    nuxt-link.btn(to="/celebrate") How To Celebrate ?
+    nuxt-link.btn(to="/celebratebhm") How To Celebrate ?
     nuxt-link.btn(to="/donate") Donate
 </template>
 
