@@ -3,7 +3,7 @@
   "version": "12.0.0",
   "private": true,
   "scripts": {
-    "build": "nuxt build --entry-name main",
+    "build": "nuxt --entry-name main",
     "build-all": "nuxt build --entry-name main",
     "build:comingSoon": "nuxt build --entry-name comingSoon",
     "build:main": "nuxt build --entry-name main",
@@ -12,7 +12,7 @@
     "dev:comingSoon": "nuxt --entry-name comingSoon",
     "dev:main": "nuxt --entry-name main",
     "dev:promoOver": "nuxt --entry-name promoOver",
-    "generate": "nuxt generate --entry-name main",
+    "generate": "nuxt  --entry-name main",
     "generate-all": "nuxt generate --entry-name main",
     "generate:comingSoon": "nuxt generate --entry-name comingSoon",
     "generate:main": "nuxt generate --entry-name main",
