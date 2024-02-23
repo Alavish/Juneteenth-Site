@@ -7,15 +7,17 @@
   .explanationBox
     h3 Black History In Spokane ?
     .explanationBoxBreak
-    <img class="monPic" alt="monument" src="@/assets/images/FBurgCMaxey.png">
+    <img class="monPic" alt="monument" src="@/assets/images/PeteBarrow.jpeg">
       br
-      span Frank Burgess & Carl Maxey 
+      span Rev. Peter Barnabus Barrow
       br
-      p Spokane, like many places in the United States, has its own history enriched by the contributions of notable African Americans. One such figure is Frank Burgess, an exceptional athlete and influential individual who made his mark in Spokane 
-      p Frank Burgess was a basketball sensation at Gonzaga University during the late 1950s. Despite facing racial prejudices and challenges during his time, Burgess excelled both on and off the court. He became the first African American to lead the NCAA in scoring, achieving an average of 32.4 points per game in the 1960 season. His remarkable talent and resilience in the face of adversity not only made him a local sports hero but also a symbol of determination and excellence.
-      p Burgess's legacy extends beyond his basketball prowess. He became an inspiration for many young athletes, demonstrating the power of perseverance and dedication. His achievements paved the way for future generations of black athletes in Spokane and beyond, breaking barriers and proving that talent knows no racial boundaries.
-      p Moreover, Spokane has seen the emergence of other influential African American figures. For instance, activist and educator Carl Maxey left an indelible mark on the city. Maxey fought against racial discrimination, advocating for civil rights and equality in Spokane. His efforts helped create a more inclusive and equitable community, leaving a lasting impact on the city's social and legal landscape.
-      p These stories of remarkable individuals like Frank Burgess and Carl Maxey highlight the resilience, determination, and contributions of African Americans in shaping Spokane's history. Their legacies serve as a testament to the power of perseverance, inspiring generations to strive for excellence and equality in all aspects of life.
+      p Rev. Peter Barnabus Barrow stands as a towering figure in both the annals of Black history and the narrative of Spokane's pioneering spirit. Born into the shackles of slavery, he rose from the depths of oppression to become a beacon of resilience 
+      p and progress. His journey from the battlefields of the Civil War to the corridors of power in the Mississippi Legislature, and ultimately to the nascent city of Spokane, epitomizes the indomitable spirit of the human soul yearning for freedom and 
+      p opportunity. Reverend Barrow's pivotal role as one of the founders of Calvary Baptist Church, the first Black church in Spokane, signifies not only the establishment of a spiritual sanctuary but also the birth of a resilient community amidst the 
+      p challenges of racism and discrimination. Moreover, Reverend Barrow's legacy extends beyond the confines of religious leadership. His fervent advocacy for the rights of farmers and Black citizens, coupled with his foray into business ventures and 
+      p political activism, underscores his multifaceted contributions to both the Black community and the broader Spokane society. In an era marred by racial prejudice and systemic barriers, Barrow's unwavering commitment to uplifting his fellow citizens 
+      p serves as a timeless reminder of the transformative power of perseverance and solidarity. As we reflect on Reverend Barrow's journey, let us draw inspiration from his remarkable resilience and resolve, and strive to emulate his spirit of resilience 
+      p and empowerment in our own endeavors, fostering a more inclusive and equitable future for all.
       br
       br
   
